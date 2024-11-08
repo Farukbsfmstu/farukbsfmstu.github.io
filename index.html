@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title ></>Faruk Ahmad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Index.css">
+   
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const text = "Java Developer";
+        let index = 0;
+        const element = document.getElementById("typewriter");
+
+        function type() {
+            if (index < text.length) {
+                element.innerHTML += text.charAt(index);
+                index++;
+                setTimeout(type, 150); // Adjust typing speed here
+            } else {
+                // Remove the blinking cursor by removing the border
+                setTimeout(() => {
+                    element.style.borderRight = "none";
+                }, 500); // Delay to allow the cursor to blink one last time
+            }
+        }
+
+        type(); // Start the typing effect
+    });
+</script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Container -->
+    <div class="container mt-5 pt-5 ">
+        <!-- Home Section -->
+        <section id="home">
+            <h1 class="text-center">Welcome to My Portfolio</h1>
+            <div class="container text-center my-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <span class="badge rounded-pill bg-success px-3 py-2">Assalamualikum, I'm</span>
+                        <h1 class="intro-text">Faruk Ahmad</h1>
+                        <h4 class="intro-text" id="typewriter"></h4>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="profile-circle">
+                            <img src="./image/profile.jpg" alt="Profile Image" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        
+        <section id="about">
+            <h2 class="text-center mb-5">About Me</h2>
+            <p class="text-center">I am a Computer Science graduate from Bangamata Sheikh Fojilatnnesa Mujib Science and Technology University, I am fundamental skilled in programming, Networking,algorithms, and software development, and a fast learner with C++, and Java. I look forward to utilizing my skills both from my education and from the field itself to help build exciting software technologies and push forward the field.</p>
+               <div class="mt-4">
+                    <h5>Introduction Video</h5>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your_video_id" allowfullscreen></iframe>
+                    </div>
+                </div>
+        </section>
+
+           <!-- Experience section -->
+
+
+<section id="experience" class="container py-4">
+    <div class="row justify-content-center align-items-center  " style="padding-top: 40px">
+        <!-- Icon Column -->
+        <div class="col-auto text-center" style="flex: 0 0 5%;">
+            <i class="fas fa-laptop-code" style="font-size: 2rem;"></i>
+        </div>
+        <!-- Text Column -->
+        <div class="col-md-11 col-lg-8 " >
+            <h2 class="mb-2 text-center ">Experience</h2>
+            <p class="text-left">
+                Experienced in various programming languages, frameworks, and tools: e.g., Java, C, C++, Spring Boot, basic HTML. A competent professional in development, front-end, and back-end development, coding efficient solutions.
+            </p>
+        </div>
+    </div>
+
+
+     <div class="row justify-content-center align-items-center"> 
+        <div class="col-md-10 col-lg-7">
+            <h2 class="mb-2 text-start">Angular and Spring Boot Integration Projects</h2>
+            <p class="text-start">
+              <ul>
+                <li>
+                  <span>Project:</span> 
+                  <span>Built web applications using Angular and Spring Boot .</span>
+                </li>
+                <li>
+                    <span>Skills Used: </span>
+                    <span>Angular, Spring Boot,HTML,bootstrap</span>
+                </li>
+             </ul>
+
+            </p>
+        </div>
+    </div>
+
+         <div class="row justify-content-center align-items-center"> 
+        <div class="col-md-10 col-lg-7">
+            <h2 class="mb-2 text-start">Student Result Management System</h2>
+            <p class="text-start">
+              <ul>
+                <li>
+                  <span>Project:</span> 
+                  <span> Developed a system for managing student results, leveraging the capabilities of Spring Boot.</span>
+                </li>
+                <li>
+                    <span>Skills Used: </span>
+                    <span>Java, Spring Boot, REST APIs, MySQL,HTML,bootstrap,Thymleaf</span>
+                </li>
+                <li>
+                    <span>Key Contributions: </span>
+                    <span>Built features for secure storage, updating and retrieval of student records and grades. Coded an easy-to-use interface for effective result tracking and reporting. Works on optimizing and efficient data-processing at back-end.</span>
+                </li>
+             </ul>
+
+            </p>
+        </div>
+    </div>
+
+
+     <div class="row justify-content-center align-items-center"> 
+        <div class="col-md-10 col-lg-7">
+            <h2 class="mb-2 text-start">Selenium Automation tool:</h2>
+            <p class="text-start">
+              <ul>
+                <li>
+                  <span>Project:</span> 
+                  <span>Developed automated test scripts to enhance web application,Specially Form submission</span>
+                </li>
+                <li>
+                    <span>Skills Used: </span>
+                    <span>Selenium , Java</span>
+                </li>
+                <li>
+                    <span>Key Contributions:</span>
+                    <span>Utilized XPath expressions to automate interactions with input data, date pickers and designed scripts to pass Cloudflare verification by using real Chrome profiles.</span>
+                </li>
+             </ul>
+
+            </p>
+        </div>
+    </div>
+
+
+     <div class="row justify-content-center align-items-center"> 
+        <div class="col-md-10 col-lg-7">
+            <h2 class="mb-2 text-start">CCTV Installation and Troubleshooting:</h2>
+            <p class="text-start">
+              <ul>
+                <li>
+                  <span>Role:</span> 
+                  <span> Hands-on experience with the installation, configuration, and maintenance of CCTV systems.</span>
+                </li>
+            
+                <li>
+                    <span>Key Contributions:</span>
+                    <span>Ensured the proper setup of surveillance equipment, addressing network and connectivity issues as they arose.</span>
+                </li>
+             </ul>
+
+            </p>
+        </div>
+    </div>
+
+     <div class="row justify-content-center align-items-center"> 
+        <div class="col-md-10 col-lg-7">
+            <h2 class="mb-2 text-start">Technical Support in Printing Presses:</h2>
+            <p class="text-start">
+              <ul>
+                <li>
+                  <span>Role:</span> 
+                  <span>  Provided troubleshooting services for computer-related problems in a printing press environment.</span>
+                </li>
+              
+                <li>
+                    <span>Key Contributions:</span>
+                    <span>Diagnosed and resolved software and hardware issues, ensuring minimal downtime and efficient operations.</span>
+                </li>
+             </ul>
+
+            </p>
+        </div>
+    </div>
+
+</section>
+
+
+
+       
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="text-center">Skills</h2>
+           
+              <div class="social-links mt-3 d-flex justify-content-center align-items-center flex-wrap">
+                <img src="./image/java.png" class=" shadow-sm m-2" style="height: 100px; width:150px; object-fit: contain;">
+                <img src="./image/cpp.png" class=" shadow-sm m-2" style="height: 100px; width:150px; object-fit: contain;">
+                <img src="./image/spring.png" class=" shadow-sm m-2" style="height: 120px; width:170px; object-fit: contain;">
+                <img src="./image/angular.png" class="shadow-sm m-2"  style="height: 130px; width:170px;object-fit: contain;">
+                <img src="./image/mysql.png" class="shadow-sm m-2"  style="height: 130px; width:170px;object-fit: contain;">
+                 <img src="./image/selenium.png" class="shadow-sm m-2"  style="height: 160px; width:200px;object-fit: contain;">
+                <img src="./image/html.png" class="shadow-sm m-2"  style="height: 90px; width:130px;object-fit: contain;">
+                <img src="./image/bootstrap.png" class="shadow-sm m-2"  style="height: 200px; width:240px;object-fit: contain;">
+                <img src="./image/overleaf.png" class="shadow-sm m-2"  style="height: 180px; width:200px;object-fit: contain;">
+
+        <!-- Add more skill images as needed -->
+             </div>
+
+        </section>
+
+        <!-- Project Section -->
+
+        <section id="project">
+            <h2 class="text-center">Project</h2>
+            <p class="text-center">Comming soon.....</p>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="text-center">Contact Me</h2>
+            <p class="text-center"> </p>
+
+            <div class="contact-info mt-3">
+                <p class="d-flex align-items-center">
+                    <i class="fas fa-envelope me-2"></i> 
+                    <a href="mailto:getemail@email.com" class="text-white">faruk.bsfmstu@email.com</a>
+                </p>
+                <p class="d-flex align-items-center">
+                    <i class="fas fa-phone me-2"></i> 
+                    <a href="tel:+129869877867" class="text-white">01571221953</a>
+                </p>
+                <p class="d-flex align-items-center">
+                    <i class="fas fa-map-marker-alt me-2"></i> 
+                    Narsingdi,Dhaka,Bangladesh
+                </p>
+
+
+              <div class="social-links mt-3 d-flex justify-content-start">
+                <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-white" style="font-size: 1.5rem;"><i class="fab fa-behance"></i></a>
+             </div>                 
+            
+            </div>
+
+        </section>
+
+         <section id="resume">
+                 <!-- Download CV Button -->
+                 <h2 class="mb-4 text-center">My Resume</h2>
+                 <p>Please accept this letter as a formal proposal for consideration, with regard to the software developer in your company or organization.I am hands on with core technologies and offer the experience of Java, C++, Spring Boot and Angular.
+                 I look forward to bringing my technical ability and enthusiasm for learning to your team. My attached CV has more information on my skills and experience.
+                 Thank you for taking the time to look at my application. I am excited to contribute my skills and efforts at your company or organization, while also focusing on learning in a real-world software development environment.
+            </p>
+             <a href="path/to/your/CV.pdf" class="btn btn-link text-primary p-1 mt-3 border-0" download>
+               <i class="fas fa-download me-1"></i> Download CV
+             </a>
+        </section>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
