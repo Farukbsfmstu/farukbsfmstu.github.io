@@ -1,0 +1,1 @@
+# farukbsfmstu.github.io
