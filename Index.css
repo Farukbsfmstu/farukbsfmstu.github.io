@@ -95,5 +95,17 @@
     to { border-right-color: transparent; }
 }
 
+.project-item {
+    background-color: rgba(200, 200, 255, 0.85); /* White with low opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    /* Soft shadow */
+    border-radius: 10px;                         /* Optional: Rounded corners */
+    padding: 20px;                               /* Optional: Add spacing */
+    transition: transform 0.3s ease;             /* Optional: Smooth hover effect */
+}
+
+.project-item:hover {
+    transform: translateY(-5px);                 /* Optional: Slight lift on hover */
+}
+
 
  </style>
